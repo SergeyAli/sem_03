@@ -1,10 +1,10 @@
 package model;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main_03 {
-
+//3.	Дан массив записей: фамилия студента, номер группы, размер стипендии, баллы по 3 предметам.
+// Определить стипендии студентов, фамилии которых заканчиваются на «ова», при четной сумме баллов.
     public static void main(String[] args) {
         Student student1 = new Student("Олегова", 2, 5.0, 3);
         Student student2 = new Student("Денисова", 2, 6.0, 2);
