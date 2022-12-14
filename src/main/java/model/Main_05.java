@@ -7,7 +7,7 @@ public class Main_05 {
 //Посчитать количество слов в строке*
 
     public static void main(String[] args) {
-        String str = "qwe asd zxc";
+        String str = "Мама мыла раму и окно";
         List<String> strList = new ArrayList<>();
         strList.addAll(List.of(str.split(" ")));
         System.out.println("size = "+strList.size());
